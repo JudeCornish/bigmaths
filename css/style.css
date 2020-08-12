@@ -124,7 +124,8 @@ button:hover {
 }
 
 .landing {
-	height: 70vh;
+	margin-top: 8vh;
+	height: 40vh;
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -148,6 +149,29 @@ h2 {
 h4 {
 	font-weight: 300;
 	font-size: 150%;
+}
+
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 400%;
+	}
+	h4 {
+		font-size: 125%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 250%;
+	}
+	h4 {
+		font-size: 100%;
+	}
+
+	.landing {
+		height: 25vh;
+		margin-top: 10vh;
+	}
 }
 
 .under-title {
