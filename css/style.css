@@ -51,7 +51,12 @@ header {
 
 @media screen and (max-width: 800px) {
 	.logo-title {
-		font-size: 150%;
+		font-size: 175%;
+		letter-spacing: 1px;
+	}
+
+	header {
+		padding: 30px 5%;
 	}
 }
 
@@ -64,6 +69,7 @@ p {
 	font-size: 80%;
 	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 100;
+	margin-top: -0.5vh;
 }
 
 .nav-links {
