@@ -49,6 +49,12 @@ header {
 	font-size: 200%;
 }
 
+@media screen and (max-width: 800px) {
+	.logo-title {
+		font-size: 150%;
+	}
+}
+
 p {
 	font-family: "EB Garamond", serif;
 }
